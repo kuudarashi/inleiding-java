@@ -1,4 +1,6 @@
 package h08;
 
-public class K08 {
+import java.applet.Applet;
+
+public class K08 extends Applet {
 }
