@@ -21,7 +21,6 @@ int uit3;
 
     }
 
-    @Override
     public void paint(Graphics g) {
         g.drawString("het gemiddelde is" + uit5,20,20);
     }
