@@ -9,10 +9,11 @@ public class K081 extends Applet{
     int count,count1,count2,count3,thot;
 Button a1,a2,a3,a4;
     public void init() {
+        setBackground(Color.DARK_GRAY);
         a1 = new Button("m");
         a2 = new Button("v");
-        a3 = new Button("pm");
-        a4 = new Button("pv");
+        a3 = new Button("pms");
+        a4 = new Button("pvs");
         a1.addActionListener( new K081.sopo());
         a2.addActionListener( new K081.popo());
         a3.addActionListener( new K081.nopo());
@@ -31,6 +32,7 @@ Button a1,a2,a3,a4;
     }
 
     public void paint(Graphics g) {
+        g.setColor(Color.RED);
         g.drawString("mannen" + count,40,60);
         g.drawString("vrouwen" + count1,40,80);
         g.drawString("potentiele mannelijke studenten" + count2,40,100);

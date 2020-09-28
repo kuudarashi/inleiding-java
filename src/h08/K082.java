@@ -5,4 +5,12 @@ import java.applet.*;
 import java.awt.event.*;
 
 public class K082 extends Applet {
+    int e;
+    Label d;
+    Button w;
+    TextField s;
+
+    public void init() {
+
+    }
 }
