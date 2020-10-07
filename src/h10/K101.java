@@ -41,10 +41,8 @@ public class K101 extends Applet {
             if ( high > score){
                 score = high;
                 tekst = "high score = " + score;
-
+                repaint();
             }
-            repaint();
-
         }
     }
 
@@ -59,11 +57,8 @@ public class K101 extends Applet {
             if ( high < score){
                 score = high;
                 tekst2 = "lowest score = " + score;
-
-
+                repaint();
             }
-            repaint();
-
         }
     }
 }
