@@ -1,12 +1,12 @@
 package h08;
 
-import javax.xml.transform.OutputKeys;
+
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.*;
 
 public class K082 extends Applet {
-    double a1,a2;
+    double a1;
     Label lab;
     Button ok;
     TextField txt;
