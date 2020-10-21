@@ -11,9 +11,11 @@ public class KP10 extends Applet {
     String txt;
 
     public void init() {
+        setBackground(Color.DARK_GRAY);
         txv = new TextField("",5);
         txv.addActionListener(new txtfield ());
         add(txv);
+        txt= "";
 
     }
 
