@@ -12,7 +12,6 @@ public class K121 extends Applet {
     public void init() {
         int i = 0;
         while (i < 25) {
-
             knopjes[i] = new Button("knop" + i);
             add(knopjes[i]);
             i++;
